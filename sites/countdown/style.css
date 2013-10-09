@@ -1,0 +1,102 @@
+@import url(http://fonts.googleapis.com/css?family=Dosis:400,700|Cabin:700);
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-size: 1em;
+}
+
+body {
+  background: #999;
+  color: #fff;
+  font-family: Helvetica;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 100px 10px 50px;
+}
+
+/* Background colors */
+
+.jim-1 { background: #4e9fd7; }
+.jim-2 { background: #ac1f8d; }
+.jim-3 { background: #bcbe50; }
+.jim-4 { background: #5e474a; }
+.shutdown { background: #000; }
+
+/* States */
+
+section {
+  display: none;
+}
+
+.release .state-1, .shutdown .state-2 {
+  display: block;
+}
+
+/* Typo-graphy */
+
+a:link, a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #e24;
+}
+
+small {
+  font-size: 0.5em;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 69px;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.state-1 .line-1 {
+  font-size: 48px;
+  line-height: 53px;
+}
+
+.state-1 .line-2 {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 65px;
+  text-transform: none;
+}
+
+.state-1 .line-2 .hours,
+.state-1 .line-2 .minutes,
+.state-1 .line-2 .seconds {
+  display: none;
+}
+
+.state-1 .line-2 span span {
+  font-size: 72px;
+}
+
+.state-2 .line-1 {
+  font-size: 48px;
+  line-height: 53px;
+}
+
+.state-2 .line-2 {
+  font-size: 36px;
+  line-height: 41px;
+}
+
+.state-2 .line-3 {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 77px;
+}
