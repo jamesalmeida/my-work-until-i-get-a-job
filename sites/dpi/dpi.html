@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="utf-8" />
+<title>What's my DPI?</title>
+<link rel="stylesheet" href="style.css" />
+<script src="prefixfree.min.js"></script>
+
+</head>
+<body>
+
+<header>
+	<h1>
+		<!-- <img src="img/logo.svg" /> -->
+		<strong>What's my DPI?</strong>
+	</h1>
+</header>
+
+<fieldset>
+	Resolution:
+	<input id="width" inputmode="numeric" pattern="\d+" />
+	×
+	<input id="height" inputmode="numeric" pattern="\d+" />
+	
+	
+</fieldset>
+
+<fieldset>
+	<select id="dimension" title="Physical dimension (in inches)">
+		<option selected value="d">Diagonal</option>
+		<option value="w">Width</option>
+		<option value="h">Height</option>
+	</select>:
+	<input id="physical" value="13.3" inputmode="numeric" pattern="\d*\.?\d+" />″
+	
+	
+</fieldset>
+
+<output>
+	<div>
+		<strong id="result"></strong>
+		pixels per inch
+	</div>
+</output>
+
+
+<footer>Check out my other stuff <a href="http://jamesalmeida.me">here</a>.</footer>
+
+<script src="utopia.js"></script>
+<script src="dpi.js"></script>
+
+</body>
+</html>
