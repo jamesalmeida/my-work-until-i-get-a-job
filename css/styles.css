@@ -2,10 +2,10 @@ body {
 	padding: 0; /* Gets rid of the automatic padding */
 	margin: 0;	/*	on HTML documents */
 	text-align: center;
-	background-color: #2B6982;
+	background-color: white;
 	background-size: cover;
 	background-position: center;
-	color: #ECF0F1;
+	color: #223467;
 	font-family: georgia, times, serif;
 	font-size: 16px;
 } 
@@ -18,24 +18,25 @@ body {
 	-webkit-box-shadow: 1px 1px 1px black;
     box-shadow: 1px 1px 1px black;
     text-indent: 0px;
+    color: white;
 }
 a { 
 	color: orange; 
 } 
 h1 {
 	font-size: 40px; 
-	color: #ECF0F1;
+	color: #223467;
 	font-family: verdana, helvetica, sans-serif;
-/*	font-family: georgia, times, serif; */
-	text-shadow: 3px 3px #666666
+/*	font-family: georgia, times, serif; */	
+/*	text-shadow: 1px 1px #666666 */
 }
 h2 {
 	font-size: 24px;
-	color: #ECF0F1;
+	color: #223467;
 	font-family: verdana, helvetica, sans-serif;
 	text-transform: uppercase;
 	letter-spacing: .2em;
-	text-shadow: 3px 3px #666666
+/*	text-shadow: 3px 3px #666666 */
 } 
 p {
 	opacity: 1.0
